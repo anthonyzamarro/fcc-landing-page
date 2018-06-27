@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>FCC: Landing Page</title>
+</head>
+<body>
+<div class="container">
+  <header class="header" id="header">
+    <div class="logo-container"><img class="logo" src="images/cheese.svg" alt="placeholder image for logo"></div>
+    <nav id="nav-bar" class="nav">
+      <ul>
+        <li><a href="#video">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="video-container" id="video">
+    <h1>About Best Cuts</h1>
+    <p class="introduction">At Best Cuts, you can blame us for cutting the finest quality cheeses in the whole world. Naturally made, our cuts will have you begging for us to never stop! <a href="#contact">Contact</a> us now to order the Best Cuts of cheese you've ever had.</p>
+    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/RLhmG-LIwnE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <!-- <img src="images/animal-dog-pet-indoors.jpg" class="placeholder"> -->
+  </section>
+  <section class="products-container" id="products">
+    <h2>The Best Cuts</h2>
+    <div class="product"><h3>Brie</h3><img class="product-image" src="images/smoked-brie-01.png" alt="placeholder image for cheese product"></div>
+    <div class="product"><h3>Cheddar</h3><img class="product-image" src="images/cheddar.png" alt="placeholder image for cheese product"></div>
+    <div class="product"><h3>Feta</h3><img class="product-image" src="images/feta.png" alt="placeholder image for cheese product"></div>
+    <div class="product"><h3>Blue Cheese</h3><img class="product-image" src="images/blue_cheese.png" alt="placeholder image for product"></div>
+    <div class="product"><h3>Swiss</h3><img class="product-image" src="images/swiss.png" alt="placeholder image for product"></div>
+    <div class="product"><h3>Mozzarella</h3><img class="product-image" src="images/mozzarella.png" alt="placeholder image for product"></div>
+  </section>
+  <section class="contact-container" id="contact">
+    <h2>Contact</h2>
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+     <div class="name-email-container">
+        <label for="name" id="label-name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="enter your full name">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required placeholder="enter your email">
+        <br>
+        <br>
+        <label for="cheese">Favorite Cheese:</label>
+        <br>
+        <select name="cheese">
+          <option value="brie">Brie</option>
+          <option value="cheddar">Cheddar</option>
+          <option value="feta">Feta</option>
+          <option value="swiss">Swiss</option>
+        </select>
+        <br>
+        <br>
+     </div>
+      <div class="more-info-container">
+        <legend for="more-info"><strong>More Information</strong></legend>
+        <p>if there's anything you'd like to add, such as your relationship with cheese, leave a comment about it here!</p>
+        <textarea name="more-info" id="more-info" cols="60" rows="10"></textarea>
+         <br>
+         <br>
+        <div class="btn-container">
+          <input type="submit">
+        </div>
+      </div>
+    </form>
+  </section>
+  <footer id="footer">  </footer>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
