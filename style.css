@@ -90,15 +90,18 @@ form {
 }
 .btn-container {
   text-align: center;
-  background: #fff200;
+  background: #05ff4c
   border-radius: 10px;
   margin-bottom: 20px;
   padding: 10px;
   cursor: pointer;
+  max-width: 200px;
 }
 input[type="submit"] {
   background: transparent;
   border: none;
+  color: #fff;
+  font-size: 16px;
 }
 /*tablet*/
 @media screen and (max-width: 768px) {
